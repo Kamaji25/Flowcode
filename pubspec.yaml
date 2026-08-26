@@ -1,0 +1,23 @@
+name: flowcode
+description: "A lightweight VS Code inspired code editor."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.4.9
+  code_text_field: ^2.3.0
+  highlight: ^0.7.0
+  flutter_highlight: ^0.7.0
+  http: ^1.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
